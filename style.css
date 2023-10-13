@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(132,11, 65);
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #b3b8ea;
+}
+p {
+    color: white;
+}
+@media (max-width: 600px) {
+    body {
+        background-color: #a31578
+    }
+    img {
+        height:100px; width:100px;
+    }
+    h1{
+        font-size: 24px;
+}
+    P {
+        font-size:16px
+    }
+    @media (min-width: 601px) and (max-width: 1024px) {
+        h1 {
+            font-size:32px;
+        }
+    }
+    p {
+        font-size: 18px;
+    }
+
+    @media (min-width: 1025px) {
+        body {
+            background-color: blanchedalmond;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        h1 {
+            font-size:48px;
+        }
+        p {
+            font-size:20px;
+        }
+        }
+        @media (max-width: 1200px) {
+            .short-text { display: inline-block; }
+            .full-text { display: none; }
+        }
+
+    }
+        
+
